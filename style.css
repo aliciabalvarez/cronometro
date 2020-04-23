@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(39, 39, 39);
+
+}
+h1{
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(189, 189, 189);
+}
+h2{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: normal;
+    color: rgb(189, 189, 189);
+
+}
+h3{
+    font-family: 'Arima Madurai', cursive;
+}
+.flex{
+    display: flex;
+}
+.around{
+    justify-content: space-around;
+}
+.caja-cronometro{
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+
+}
+.caja-cronometro h4{
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+h4.dospuntos{
+    font-size: 43px;
+}
+.variable-cronometro-centisegundos{
+    color: #ff8b00;
+}
+.caja-botones{
+    width: 700px;
+    margin: 30px auto;
+}
+.boton{
+    width: 130px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff8b00;
+    color: white;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.boton i{
+    margin-left: 10px;
+}
+.boton:hover{
+    transform: translateY(-3px);
+    transition: 0.5s;
+    box-shadow: 0px 7px 11px -3px #0000007d;
+    background-color: #aa5e00;
+}
+#grid{
+    width: 230px;
+    margin: 50px auto;
+}
+#grid .card{
+    margin-top: 10px;
+    background-color: #5a5a5a54;
+    color: white;
+    padding: 7px 0;
+}
+.boton-cerrar{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 55px;
+    border: 1px solid red;
+    color: red;
+    transition: 0.3s;
+}
+.boton-cerrar:hover{
+    background-color: rgba(243, 0, 0, 0.233);
+    transition: 0.3s;
+}
+.display-none{
+    display: none;
+}
+.boton.desactivado{
+    background-color: transparent;
+    color: grey;
+}
+.boton.desactivado:hover{
+    box-shadow: none;
+    transform: none;
+}
+
+
+.notas h6{
+    text-align: center;
+    color: #bd0000;
+    margin-top: 30vh;
+    font-weight: normal;
+    font-size: 11px;
+}

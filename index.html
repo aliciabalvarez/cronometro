@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27ce10cb04.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:100&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+
+
+    <div class="notas">
+        <h6><i class="fas fa-exclamation-triangle"></i> No podrás guardar el resultado si el cronómetro está parado</h6>
+    </div>
+
+    <div class="caja-cronometro flex around">
+        <h4 id="hora" class="variable-cronometro">00</h4>
+        <h4>:</h4>
+        <h4 id="minuto" class="variable-cronometro">00</h4>
+        <h4>:</h4>
+        <h4 id="segundo" class="variable-cronometro">00</h4>
+        <h4>:</h4>
+        <h4 id="centisegundo" class="variable-cronometro variable-cronometro-centisegundos">00</h4>
+    </div>
+    <div class="caja-botones flex around">
+        <button class="boton" id="btnEmpezar">Empezar <i class="fas fa-play"></i></button>
+        <button disabled class="boton desactivado" id="btnParar">Parar <i class="fas fa-pause"></i></button>
+        <button disabled class="boton desactivado" id="btnGuardar">Guardar <i class="fas fa-share"></i></button>
+        <button disabled class="boton desactivado" id="btnReiniciar">Reanudar <i class="fas fa-redo-alt"></i></button>
+        <button disabled class="boton desactivado" id="btnBorrar">Borrar <i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div id="grid">
+        <!-- <div class="card">
+            <h3>Texto</h3>
+        </div> -->
+    </div>
+
+<!-- ZONA DE SCRIPTS -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
